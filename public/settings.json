@@ -1,12 +1,12 @@
 {
-    "username": "You",
+    "username": "Leo",
     "api_server": "",
     "api_server_textgenerationwebui": "",
     "preset_settings": "gui",
-    "user_avatar": "you.png",
+    "user_avatar": "1688276128574.png",
     "amount_gen": 80,
     "max_context": 2048,
-    "main_api": "openai",
+    "main_api": "koboldhorde",
     "world_info": {
         "globalSelect": []
     },
@@ -49,10 +49,13 @@
     },
     "swipes": true,
     "horde_settings": {
-        "models": [],
+        "models": [
+            "airoboros-7B-gpt4-1.4-GPTQ",
+            "ehartford/WizardLM-13B-Uncensored"
+        ],
         "auto_adjust_response_length": true,
-        "auto_adjust_context_length": false,
-        "trusted_workers_only": false
+        "auto_adjust_context_length": true,
+        "trusted_workers_only": true
     },
     "power_user": {
         "tokenizer": 2,
@@ -228,10 +231,10 @@
         },
         "chromadb": {},
         "translate": {
-            "target_language": "en",
+            "target_language": "es",
             "internal_language": "en",
             "provider": "google",
-            "auto_mode": "none"
+            "auto_mode": "responses"
         },
         "objective": {},
         "quickReply": {
@@ -326,7 +329,7 @@
     "rep_pen_freq_novel": 0,
     "rep_pen_presence_novel": 0,
     "tail_free_sampling_novel": 0.68,
-    "model_novel": "euterpe-v2",
+    "model_novel": "clio-v1",
     "preset_settings_novel": "Classic-Euterpe",
     "streaming_novel": false,
     "temp": 1,
@@ -357,7 +360,7 @@
     "top_p_openai": 1,
     "top_k_openai": 0,
     "stream_openai": false,
-    "openai_max_context": 4095,
+    "openai_max_context": 2048,
     "openai_max_tokens": 300,
     "nsfw_toggle": true,
     "enhance_definitions": false,
@@ -399,7 +402,7 @@
     "jailbreak_system": false,
     "reverse_proxy": "",
     "legacy_streaming": false,
-    "chat_completion_source": "claude",
+    "chat_completion_source": "openrouter",
     "max_context_unlocked": false,
     "api_url_scale": "https://spellbook.scale.com/app/Sily-eii71v8g/"
 }
