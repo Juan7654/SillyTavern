@@ -49,10 +49,7 @@
     },
     "swipes": true,
     "horde_settings": {
-        "models": [
-            "airoboros-7B-gpt4-1.4-GPTQ",
-            "ehartford/WizardLM-13B-Uncensored"
-        ],
+        "models": [],
         "auto_adjust_response_length": true,
         "auto_adjust_context_length": true,
         "trusted_workers_only": true
